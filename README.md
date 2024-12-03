@@ -53,13 +53,9 @@
 <p>⦿ <a href="https://nodejs.org/en/download/package-manager"><span>Node.js and Node Package Manager</span></p></a>
 <pre><code>node -v</code></pre>
 <pre><code>npm -v</code></pre>
-<h3><b>Dependencies/Modules</b></h3>
-⦿ <b>express</b> - The web framework used to handle routes and requests.<br>
-⦿ <b>cors</b> - Middleware to enable Cross-Origin Resource Sharing (CORS).<br>
-⦿ <b>bcryptjs</b> - For password hashing and validation.<br>
-⦿ <b>body-parse</b> - Middleware for parsing JSON request bodies <br>
-⦿ <b>mongodb</b> - MongoDB client to connect and interact with MongoDB database.<br><br>
-<pre><code>npm install express cors bcryptjs body-parser mongodb</code></pre>
+<h3><b>SDK (Software Development Kit)</b></h3>
+⦿ <b>Google Play Services Location:</b> - Part of the Google Play Services SDK for Android, specifically for location-related functionality.<br>
+⦿ <b>Firebase Realtime Database</b> - Part of the Firebase SDK for managing real-time data. <br><br>
 <h3><b>APIs</b></h3>
 ⦿ <b>OpenStreetMap</b> - a map tile source providing free geographic data and map visuals.<br>
 ⦿ <b>Google Maps Geocoding API</b> - provides geocoding and reverse geocoding of addresses.<br>
