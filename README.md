@@ -55,14 +55,16 @@
 <pre><code>npm -v</code></pre>
 <h3><b>SDK (Software Development Kit)</b></h3>
 ⦿ <b>Google Play Services Location:</b> - Part of the Google Play Services SDK for Android, specifically for location-related functionality.<br>
-⦿ <b>Firebase Realtime Database</b> - Part of the Firebase SDK for managing real-time data. <br><br>
-<h3><b>APIs</b></h3>
-⦿ <b>OpenStreetMap</b> - a map tile source providing free geographic data and map visuals.<br>
+⦿ <b>Firebase Realtime Database</b> - Part of the Firebase SDK for managing real-time data. <br>
+<h3><b>Libraries</b></h3>
+⦿ <b>osmdroid-android</b> -  A library for using OpenStreetMap within Android applications.<br>
 ⦿ <b>Google Maps Geocoding API</b> - provides geocoding and reverse geocoding of addresses.<br>
 ⦿ <b>Nominatim Geocoding API</b> - converts text-based location data into geographic coordinates and vice versa.
-<h3><b>Libraries/Plugins</b></h3>
-⦿ <b>Leaflet</b> - provides tools to initialize and manipulate maps, markers, and layers.<br>
-⦿ <b>Leaflet Routing Machine</b> - adds routing and waypoint features to Leaflet.
+⦿ <b>Material Components</b> - A library for implementing Material Design UI components.
+⦿ <b>OkHttp</b> - A standalone library for making HTTP requests.
+⦿ <b>Retrofit</b> - A library for simplifying RESTful API calls.
+⦿ <b>Retrofit Gson Converter</b> - A library add-on for Retrofit to handle JSON parsing with Gson.
+⦿ <b>GraphHopper b> - an open-source routing and navigation library designed to calculate routes and directions for various types of transportation, such as cars, bicycles, and pedestrians. 
 </div>
 
 ### <a name="preview"></a>
