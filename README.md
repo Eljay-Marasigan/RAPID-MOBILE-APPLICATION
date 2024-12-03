@@ -38,6 +38,7 @@
    ⦿ <b>Direct Messaging</b> - enables users to communicate one-on-one in a secure and confidential manner. <br><br>
    ⦿ <b>Resource Oversight</b> - This function allows users to monitor the availability and status of essential resources, such as food, water, medical kits, and gasoline, within designated areas. It provides a centralized view of supplies to ensure efficient allocation and quick replenishment.<br><br>
    ⦿ <b>Admin Control</b> -  Admins have exclusive access to manage resources, review user-generated content, and update critical information on the app. <br>
+   ⦿ <b>Chat System</b> -  enables efficient and real-time communication among stakeholders, such as emergency responders, volunteers, affected individuals, and command centers.  <br>
 </div>
 
 ### <a name="stack"></a>
@@ -64,7 +65,7 @@
 ⦿ <b>OkHttp</b> - A standalone library for making HTTP requests.<br>
 ⦿ <b>Retrofit</b> - A library for simplifying RESTful API calls.<br>
 ⦿ <b>Retrofit Gson Converter</b> - A library add-on for Retrofit to handle JSON parsing with Gson.<br>
-⦿ <b>GraphHopper b> - an open-source routing and navigation library designed to calculate routes and directions for various types of transportation, such as cars, bicycles, and pedestrians. <br>
+⦿ <b>GraphHopper </b> - an open-source routing and navigation library designed to calculate routes and directions for various types of transportation, such as cars, bicycles, and pedestrians. <br>
 </div>
 
 ### <a name="preview"></a>
