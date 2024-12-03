@@ -35,7 +35,7 @@
    ⦿ <b>Dashboard</b> - The dashboard provides users with a comprehensive overview of available resources, live updates, and quick links to essential features such as search functions, map views, and personal alerts.<br><br>
    ⦿ <b>Map Annotation</b> - Users can indicate specific information about resource availability, hazards, or updates on road conditions, helping other users stay informed in real-time.<br><br>
    ⦿ <b>GeoTagging</b> - RAPID enables users to tag resources and report locations with precise geographical coordinates.<br><br>
-   ⦿ <b>User-Generated Traffic Updates</b> - Users can contribute to real-time traffic data by sending updates via image uploads on road conditions, closures, or areas with heavy congestion. This crowdsourced feature improves route planning and helps users avoid dangerous or impassable areas. <br><br>
+   ⦿ <b>Direct Messaging</b> - enables users to communicate one-on-one in a secure and confidential manner. <br><br>
    ⦿ <b>Resource Oversight</b> - This function allows users to monitor the availability and status of essential resources, such as food, water, medical kits, and gasoline, within designated areas. It provides a centralized view of supplies to ensure efficient allocation and quick replenishment.<br><br>
    ⦿ <b>Admin Control</b> -  Admins have exclusive access to manage resources, review user-generated content, and update critical information on the app. <br>
 </div>
