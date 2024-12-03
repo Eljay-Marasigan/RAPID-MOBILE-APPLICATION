@@ -37,7 +37,7 @@
    ⦿ <b>GeoTagging</b> - RAPID enables users to tag resources and report locations with precise geographical coordinates.<br><br>
    ⦿ <b>Direct Messaging</b> - enables users to communicate one-on-one in a secure and confidential manner. <br><br>
    ⦿ <b>Resource Oversight</b> - This function allows users to monitor the availability and status of essential resources, such as food, water, medical kits, and gasoline, within designated areas. It provides a centralized view of supplies to ensure efficient allocation and quick replenishment.<br><br>
-   ⦿ <b>Admin Control</b> -  Admins have exclusive access to manage resources, review user-generated content, and update critical information on the app. <br>
+   ⦿ <b>Admin Control</b> -  Admins have exclusive access to manage resources, review user-generated content, and update critical information on the app. <br><br>
    ⦿ <b>Chat System</b> -  enables efficient and real-time communication among stakeholders, such as emergency responders, volunteers, affected individuals, and command centers.  <br>
 </div>
 
