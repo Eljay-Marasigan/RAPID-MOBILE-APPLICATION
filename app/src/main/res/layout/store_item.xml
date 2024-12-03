@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/border_with_shadow"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <!-- Store Name -->
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Store Name"
+        android:textColor="@color/BLACK"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Supply Type -->
+    <TextView
+        android:id="@+id/supplyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Supply Type"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <!-- Supply Status -->
+    <TextView
+        android:id="@+id/supplyStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Supply Status"
+        android:textColor="@color/DARKGREEN"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/supplyLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Supply Lacation"
+        android:textColor="@color/DARKGREEN"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

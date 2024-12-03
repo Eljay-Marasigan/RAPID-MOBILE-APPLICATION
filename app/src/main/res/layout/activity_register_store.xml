@@ -1,0 +1,259 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- First Container: Store Details Input -->
+
+        <!-- Display Store Info: This TextView will show the store details once saved -->
+        <TextView
+            android:id="@+id/tvstore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ageobold"
+            android:gravity="center"
+            android:text="Register Store"
+            android:textColor="@color/BLACK"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/store_details_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvstore"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="18dp"
+            android:orientation="vertical">
+
+            <!-- Store Details Inputs (TextViews and EditTexts) -->
+
+            <TextView
+                android:id="@+id/tvstorename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Store Name"
+                android:textColor="@color/DARKGREEN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/open_sans_light"
+                android:hint="Enter your store name"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvstorelocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ageobold"
+                android:text="Store Location"
+                android:textColor="@color/DARKGREEN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/edit_text_location"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/open_sans_light"
+                android:hint="Enter your store name"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="10sp" />
+
+            <Switch
+                android:id="@+id/location_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center_vertical|end"
+                android:text="Use GPS location"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvstorehours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Store Hours"
+                android:textColor="@color/DARKGREEN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_store_hours"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/open_sans_light"
+                android:hint="Enter your store hours"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvstorecontacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Contact"
+                android:textColor="@color/DARKGREEN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/open_sans_light"
+                android:hint="Enter your contact number"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="10sp" />
+
+            <!-- Add RadioGroups, TextViews, and Buttons here -->
+            <RadioGroup
+                android:id="@+id/radio_group_supply_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <RadioButton
+                    android:id="@+id/radio_water"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Water"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_gas"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Gas"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_food"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Food"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_medicine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Medicine"
+                    android:textSize="12sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="Supply Status"
+                android:textColor="@color/DARKGREEN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_supply_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_available"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Available"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_limited"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Limited"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_out_of_stock"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_light"
+                    android:text="Out of Stock"
+                    android:textSize="12sp" />
+            </RadioGroup>
+            <!-- Buttons Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/DARKGREEN"
+                    android:text="Save Store" />
+
+                <Button
+                    android:id="@+id/view_stores_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/CAMBRIDGE"
+                    android:text="View Stores" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            layout="@layout/bottom_nav_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+</ScrollView>

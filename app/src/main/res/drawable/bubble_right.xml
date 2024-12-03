@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main Bubble -->
+    <item>
+        <shape>
+            <solid android:color="@color/CAMBRIDGE" />
+            <corners android:radius="16dp" />
+            <padding
+                android:left="20dp"
+                android:right="20dp"
+                android:top="20dp"
+                android:bottom="20dp" />
+        </shape>
+    </item>
+
+    <!-- Tail for Right-Aligned Bubble -->
+    <item
+        android:gravity="end|bottom">
+        <shape>
+            <path
+                android:fillColor="@color/CAMBRIDGE"
+                android:pathData="M0,0 L10,10 L10,0 Z" />
+        </shape>
+    </item>
+</layer-list>

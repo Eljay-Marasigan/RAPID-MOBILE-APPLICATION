@@ -1,0 +1,143 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- MapView for OSM, now takes full space from top to bottom -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/directionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/curved_container_background"
+        android:backgroundTint="#80FFFFFF"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="Directions will appear here"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+
+
+    <!-- Container for other content (overlapping the map) -->
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="384dp"
+        android:layout_height="261dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/border_with_shadow"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- AutoCompleteTextView for Starting Position -->
+        <TextView
+            android:id="@+id/tvstartingposition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:text="Starting Position"
+            android:textColor="@color/DARKGREEN"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- AutoCompleteTextView for Starting Point -->
+        <AutoCompleteTextView
+            android:id="@+id/startingPointInput"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="@font/open_sans"
+            android:hint="Enter starting point"
+            android:padding="10dp"
+            android:textSize="12sp" />
+
+        <!-- Switch for Location -->
+        <Switch
+            android:id="@+id/switchLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Use Location" />
+
+        <TextView
+            android:id="@+id/tvsppinersupply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Select Resource"
+            android:textColor="@color/DARKGREEN"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- Spinner for Resource Selection -->
+        <Spinner
+            android:id="@+id/spinnerResources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <!-- Buttons for Optimizing and Resetting Route -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonOptimizeRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/CAMBRIDGE"
+                android:fontFamily="@font/open_sans"
+                android:text="Optimize Route"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonResetRoute"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/DARKGREEN"
+                android:fontFamily="@font/open_sans"
+                android:text="Reset Route"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- Bottom navigation layout -->
+    <include
+        layout="@layout/bottom_nav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

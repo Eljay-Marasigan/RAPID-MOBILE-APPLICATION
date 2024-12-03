@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RAPIDOSM</string>
+
+    <string-array name="resource_types">
+        <item>Water</item>
+        <item>Food</item>
+        <item>Medic</item>
+        <item>Gas</item>
+    </string-array>
+
+    <!-- Supply Type Options -->
+    <string-array name="supply_type_options">
+        <item>Food</item>
+        <item>Water</item>
+        <item>Medical</item>
+        <item>Gas</item>
+    </string-array>
+
+    <!-- Supply Status Options -->
+    <string-array name="supply_status_options">
+        <item>Available</item>
+        <item>Limited</item>
+        <item>Out of Stock</item>
+    </string-array>
+
+
+        <string name="terms_title">Terms and Conditions</string>
+        <string name="terms_content">Welcome to RAPID!\n\nTerms and Conditions\n\n1. Acceptance of Terms\nBy downloading, installing, or using the RAPID app, you agree to these Terms and Conditions and our Privacy Policy. If you do not agree, please do not use the app.\n\n2. User Obligations\nYou must provide accurate and complete information when registering an account on RAPID.\nYou agree to use RAPID responsibly and not to misuse or interfere with the app’s operations or data.\nYou are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.\n\n3. User-Generated Content\nRAPID allows users to contribute information (such as location details, supply availability, or other emergency data).\n\nYou agree to provide accurate, non-misleading information. False or harmful information is strictly prohibited.\nRAPID reserves the right to remove or restrict any content that violates these terms or applicable laws.\n\n4. Emergency Services Disclaimer\nRAPID provides real-time information but does not replace official emergency services or channels. The app is designed to supplement, not substitute, direct communication with relief agencies or emergency responders.\n\nRAPID is not liable for delays, inaccuracies, or any failure of information to meet user expectations during emergency situations.\n\n5. Data Accuracy and Availability\nWe strive to keep information accurate and updated, but we cannot guarantee real-time accuracy due to network limitations or user input.\nRAPID is not responsible for the accuracy or completeness of information or routes provided, as these depend on external data sources and real-time user updates.\n\n6. Intellectual Property\nRAPID and its content are owned by the developers and protected by copyright, trademark, and other intellectual property laws. Users may not reproduce, modify, or distribute any part of RAPID without prior written consent from the developers.\n\n7. Third-Party Links and Services\nRAPID may contain links to third-party websites or resources, which are not under our control. We are not responsible for the content, privacy policies, or practices of any third-party services and do not endorse them.\n\n8. Limitation of Liability\nRAPID is provided on an \"as is\" and \"as available\" basis. We make no warranties of any kind, express or implied, about the reliability or availability of the app. RAPID, its developers, partners, or affiliates will not be liable for any indirect, incidental, or consequential damages arising from the use or inability to use the app.\n\n9. Modification of Terms\nWe may update these Terms and Conditions periodically. If we make significant changes, we will notify users via the app or email. Continued use of RAPID following any modifications indicates your acceptance of the updated terms.\n\n10. Governing Law\nThese Terms and Conditions shall be governed by and construed in accordance with the laws of [Jurisdiction].\n\n11. Contact Us\nFor questions or feedback about these Terms, please contact us at [Contact Email].</string>
+
+</resources>

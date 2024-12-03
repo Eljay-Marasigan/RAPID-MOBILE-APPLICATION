@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221207192404",
+    "project_id": "rapid-app-38090",
+    "storage_bucket": "rapid-app-38090.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221207192404:android:11292d23c580f47efa1ec1",
+        "android_client_info": {
+          "package_name": "com.example.rapidosm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNbHfRKv_1Q6NKtMG-kIPpywvNMYGKuu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

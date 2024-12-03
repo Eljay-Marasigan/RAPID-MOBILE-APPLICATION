@@ -1,0 +1,36 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutRapid">
+
+    <!-- ScrollView to make the content scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-107dp">
+
+        <!-- TextView for the content -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:gravity="start|top"
+            android:lineSpacingExtra="8sp"
+            android:lineSpacingMultiplier="1.1"
+            android:padding="16dp"
+            android:text="Recent events—particularly the aftermath of Typhoon Kristine—underline the critical importance of efficient resource allocation during times of disaster. Unprecedented catastrophes, as the adjective suggests, take communities by surprise, often leaving them vulnerable and unprepared to respond swiftly. In such situations, the establishment of mitigation strategies and a well-laid groundwork for disaster risk reduction and management become not just beneficial but essential for the safety and resilience of the populace. Having access to basic necessities such as clean water, gasoline, food supplies, medical kits, and other essential items in advance of a potential disaster is crucial to survival and stability. This proactive approach can significantly reduce the immediate negative impact on affected populations, enabling quicker recovery and reducing the burden on emergency response teams.\n\nWith just a few clicks, users can quickly locate nearby facilities and resources that are crucial in times of disaster. RAPID provides real-time information on essential supplies such as food, water, medical kits, and gasoline. By streamlining the search for vital resources, RAPID helps communities and individuals prepare effectively and respond more efficiently when disasters strike.\n\n𝐘𝐨𝐮𝐫 𝐧𝐞𝐜𝐞𝐬𝐬𝐢𝐭𝐲, 𝐰𝐞 𝐟𝐢𝐧𝐝 𝐑𝐀𝐏𝐈𝐃𝐥𝐲."
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

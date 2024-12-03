@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="3dp"> <!-- Add background with border and shadow here -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_with_shadow"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvstore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ageobold"
+            android:gravity="center"
+            android:text="Edit Your Registered Store"
+            android:textColor="@color/DARKGREEN"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvstorename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ageobold"
+            android:text="Store Name"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/store_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter your store name"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvstorelocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ageobold"
+            android:text="Store Location"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/location_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter your store location"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvstorehours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ageobold"
+            android:text="Store Hours"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/store_hours_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter your store hours"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvstorecontacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ageobold"
+            android:text="Contact"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/contacts_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter your contact number"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <!-- Supply Type RadioGroup -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ageobold"
+            android:text="Supply Type"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/supply_type_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:padding="5dp"
+                android:text="Water" />
+
+            <RadioButton
+                android:id="@+id/radio_gas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:padding="3dp"
+                android:text="Gas" />
+
+            <RadioButton
+                android:id="@+id/radio_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:padding="3dp"
+                android:text="Food" />
+
+            <RadioButton
+                android:id="@+id/radio_medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:text="Medicine" />
+        </RadioGroup>
+
+        <!-- Supply Status RadioGroup -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ageobold"
+            android:text="Supply Status"
+            android:textColor="@color/DARKGREEN"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/supply_status_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:text="Available" />
+
+            <RadioButton
+                android:id="@+id/radio_limited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:text="Limited" />
+
+            <RadioButton
+                android:id="@+id/radio_out_of_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ageoregular"
+                android:text="Out of Stock" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/DARKGREEN"
+            android:onClick="updateStoreDetails"
+            android:text="Update Store" />
+
+    </LinearLayout>
+</LinearLayout>

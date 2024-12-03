@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="10dp">
+
+    <!-- Message Bubble -->
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_right_background"
+            android:maxWidth="250dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp" />
+
+    <!-- Sender's username below the message -->
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#777777"
+        android:layout_marginTop="5dp"
+        android:gravity="end"
+        android:textSize="12sp"/>
+</LinearLayout>

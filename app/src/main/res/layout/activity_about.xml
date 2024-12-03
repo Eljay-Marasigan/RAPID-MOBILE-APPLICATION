@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Username TextView at the top-left corner -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/ageoregular"
+        android:text="Username"
+        android:textColor="@color/BLACK"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Logout Button at the top-right corner -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/DARKGREEN"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+    <!-- Vertically aligned buttons in the center -->
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Global Chat Button -->
+        <Button
+            android:id="@+id/btnGlobalChat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/BLACK"
+            android:text="Global Chat"
+            android:textColor="@color/white" />
+
+        <!-- User Chat Button -->
+
+        <!-- FAQ Button -->
+
+        <!-- About Button -->
+        <Button
+            android:id="@+id/aboutRapidButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/BLACK"
+            android:text="About"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!-- Include Bottom Navigation, positioned at the bottom -->
+    <include
+        layout="@layout/bottom_nav_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>

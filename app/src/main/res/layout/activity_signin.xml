@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    android:padding="30dp">
+
+    <!-- Don’t Have an Account Text -->
+    <TextView
+        android:id="@+id/signUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Don’t have an account? Sign Up"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/signUpLink"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/CAMBRIDGE"
+        android:fontFamily="@font/open_sans"
+        android:text="Sign in"
+        android:textColor="@color/secondary"
+        android:textSize="16sp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/signInButton"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/open_sans"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <!-- Password Address Text -->
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/passwordInput"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Password"
+        android:textColor="@color/black" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/tvPassword"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/open_sans"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <!-- Email Address Text -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/emailInput"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Email Address"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main">#F4976C</color>
+    <color name="secondary">#FBF6F4</color>
+    <color name="accent">#F15446</color>
+    <color name="BLACK">#06070E</color>
+    <color name="DARKGREEN">#29524A</color>
+    <color name="CAMBRIDGE">#94a187</color>
+</resources>
