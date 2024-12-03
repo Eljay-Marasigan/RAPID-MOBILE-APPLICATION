@@ -59,12 +59,12 @@
 <h3><b>Libraries</b></h3>
 ⦿ <b>osmdroid-android</b> -  A library for using OpenStreetMap within Android applications.<br>
 ⦿ <b>Google Maps Geocoding API</b> - provides geocoding and reverse geocoding of addresses.<br>
-⦿ <b>Nominatim Geocoding API</b> - converts text-based location data into geographic coordinates and vice versa.
-⦿ <b>Material Components</b> - A library for implementing Material Design UI components.
-⦿ <b>OkHttp</b> - A standalone library for making HTTP requests.
-⦿ <b>Retrofit</b> - A library for simplifying RESTful API calls.
-⦿ <b>Retrofit Gson Converter</b> - A library add-on for Retrofit to handle JSON parsing with Gson.
-⦿ <b>GraphHopper b> - an open-source routing and navigation library designed to calculate routes and directions for various types of transportation, such as cars, bicycles, and pedestrians. 
+⦿ <b>Nominatim Geocoding API</b> - converts text-based location data into geographic coordinates and vice versa.<br>
+⦿ <b>Material Components</b> - A library for implementing Material Design UI components.<br>
+⦿ <b>OkHttp</b> - A standalone library for making HTTP requests.<br>
+⦿ <b>Retrofit</b> - A library for simplifying RESTful API calls.<br>
+⦿ <b>Retrofit Gson Converter</b> - A library add-on for Retrofit to handle JSON parsing with Gson.<br>
+⦿ <b>GraphHopper b> - an open-source routing and navigation library designed to calculate routes and directions for various types of transportation, such as cars, bicycles, and pedestrians. <br>
 </div>
 
 ### <a name="preview"></a>
@@ -81,7 +81,7 @@
     </th>
     <td>
       <div align="left"><strong>💡Eljay P. Marasigan</strong><br>
-        ➟ Leader/Frontend Developer<br>
+        ➟ Full Stack Developer/Project Manager<br>
         ➟ 22-05538<br>
         🎧 <b>traitor</b> - Olivia Rodrigo
       </div>
@@ -105,7 +105,7 @@
     </th>
     <td>
       <div align="left"><strong>💡Vince Clyde S. Banaag</strong><br>
-        ➟ Full Stack Developer/Project Manager<br>
+        ➟ Frontend Developer<br>
         ➟ 22-06373<br>
         🎧 <b>Star Signs</b> - LE SSERAFIM
       </div>
