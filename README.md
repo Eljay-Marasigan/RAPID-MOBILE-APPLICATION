@@ -47,7 +47,7 @@
 <h3><b>Frontend Development</b></h3>
 ⦿ <b>XML (eXtensible Markup Language) </b> -  defines the structure and appearance of the app interface.
 <h3><b>Data Storage and Management</b></h3>
-⦿ <b>Firebase Authentication</b> - A service to manage user authentication securely across platforms using email, social accounts, or custom methods.<br
+⦿ <b>Firebase Authentication</b> - A service to manage user authentication securely across platforms using email, social accounts, or custom methods.<br>
 ⦿ <b>Firebase Realtime Database</b> - A cloud-hosted NoSQL database that syncs and stores data in real-time across devices.<br>                                                                    
 <h3><b>SDK (Software Development Kit)</b></h3>
 ⦿ <b>Google Play Services Location:</b> - Part of the Google Play Services SDK for Android, specifically for location-related functionality.<br>
