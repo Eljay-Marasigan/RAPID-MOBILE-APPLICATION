@@ -74,14 +74,13 @@
 <div align="center">
   <table>
     <tr>
-<td><img src="https://i.ibb.co/bQ8bj7R/image.png"></td>
-<td></td><img src="https://i.ibb.co/jHYdTd6/image.png"></td>
-   </tr>
-   <tr>
-<td><img src="https://i.ibb.co/b5MF3yM/image.png"></td>
-<td><img src="https://i.ibb.co/tzqXFGG/image.png"></td>
-   </tr>
+      <td><img src="https://i.ibb.co/bQ8bj7R/image.png" width="150"></td>
+      <td><img src="https://i.ibb.co/jHYdTd6/image.png" width="150"></td>
+      <td><img src="https://i.ibb.co/b5MF3yM/image.png" width="150"></td>
+      <td><img src="https://i.ibb.co/tzqXFGG/image.png" width="150"></td>
+    </tr>
   </table>
+</div>
 
 ### <a name="members"></a>
 ## :shipit: Member Portfolio
