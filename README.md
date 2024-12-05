@@ -139,7 +139,7 @@
       </td>
       <td width="25%">
          <div align="center">
-            <a href="https://drive.google.com/drive/folders/14YdWsfNPUnofs25Nddq7WoeR5iHhVD_q?usp=sharing">
+            <a href="https://drive.google.com/drive/folders/1nR7HAjTBR0NX4h6uDQp9q6oaesCNZ9a4?usp=sharing">
                <img src="https://i.ibb.co/HLyN6mr/9746449.png" width="55%">
             </a>
             <p>Project Documentation</p>
@@ -147,7 +147,7 @@
       </td>
       <td width="25%">
          <div align="center">
-            <a href="https://www.figma.com/proto/kvVTjMtBxn3BxBEt7yKiMC/RAPID?node-id=1-3&t=fUxihvhNzw4plitc-1">
+            <a href="https://www.figma.com/proto/xvbe6atcrrULs1sBtsmk8r/JL's-team-library?page-id=0%3A1&node-id=3333-1458&node-type=canvas&viewport=2096%2C9550%2C0.31&t=jE9OBP4sfY33zQmc-1&scaling=contain&content-scaling=fixed&starting-point-node-id=3311%3A5">
                <img src="https://i.ibb.co/ZJKs3pm/4595100.png" width="55%">
             </a>
             <p>Initial Interface Design (Figma)</p>
@@ -155,7 +155,7 @@
       </td>
       <td width="25%">
          <div align="center">
-            <a href="#">
+            <a href="https://drive.google.com/drive/folders/1TeKwvK1idmxFeSveblfTTtyIJdmcc2No?usp=sharing">
                <img src="https://i.ibb.co/JK5jTgY/5651475.png" width="55%">
             </a>
             <p>Video Demo Masterlist</p>
