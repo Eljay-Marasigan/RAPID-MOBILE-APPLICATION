@@ -379,7 +379,7 @@ public class LocatorMap extends AppCompatActivity {
 
 
 
-    // Fetch route from an external service like GraphHopper
+    // Fetch route from GraphHopper
     private void fetchRoute(GeoPoint startPoint, GeoPoint endPoint) {
         OkHttpClient client = new OkHttpClient();
         String url = "https://graphhopper.com/api/1/route?point=" + startPoint.getLatitude() + "," + startPoint.getLongitude()

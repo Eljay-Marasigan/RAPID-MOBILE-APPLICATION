@@ -49,9 +49,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/border_with_shadow"
+        android:background="@drawable/bubble_left"
         android:text="Close"
-        android:textColor="@color/DARKGREEN"
+        android:textColor="@color/secondary"
         app:backgroundTint="@null"
         app:cornerRadius="12dp" />
 
