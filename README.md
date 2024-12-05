@@ -49,11 +49,8 @@
 ⦿ <b>CSS</b> - controls RAPID's visual design and responsiveness, thus making the pages aesthetically pleasing and adaptable to different screen sizes.<br>
 ⦿ <b>JavaScript</b> - adds interactivity and dynamic functionality to RAPID, enabling features like animations, form validation, and data fetching.
 <h3><b>Data Storage and Management</b></h3>
-⦿ <b>MongoDB Cloud</b> - used to store user and store information.<br>
-<h3><b>Backend Development Tools</b></h3>
-<p>⦿ <a href="https://nodejs.org/en/download/package-manager"><span>Node.js and Node Package Manager</span></p></a>
-<pre><code>node -v</code></pre>
-<pre><code>npm -v</code></pre>
+⦿ <b>Firebase Authentication</b> - A service to manage user authentication securely across platforms using email, social accounts, or custom methods.<br
+⦿ <b>Firebase Realtime Database</b> - A cloud-hosted NoSQL database that syncs and stores data in real-time across devices.<br>                                                                    
 <h3><b>SDK (Software Development Kit)</b></h3>
 ⦿ <b>Google Play Services Location:</b> - Part of the Google Play Services SDK for Android, specifically for location-related functionality.<br>
 ⦿ <b>Firebase Realtime Database</b> - Part of the Firebase SDK for managing real-time data. <br>
