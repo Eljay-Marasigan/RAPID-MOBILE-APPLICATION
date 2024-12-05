@@ -81,6 +81,7 @@
 <td><img src="https://i.ibb.co/b5MF3yM/image.png"></td>
 <td><img src="https://i.ibb.co/tzqXFGG/image.png"></td>
    </tr>
+  </table>
 
 ### <a name="members"></a>
 ## :shipit: Member Portfolio
