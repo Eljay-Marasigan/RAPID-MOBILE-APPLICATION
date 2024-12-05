@@ -147,7 +147,7 @@
       </td>
       <td width="25%">
          <div align="center">
-            <a href="https://www.figma.com/proto/kvVTjMtBxn3BxBEt7yKiMC/RAPID?node-id=1-3&t=fUxihvhNzw4plitc-1">
+            <a href="https://www.figma.com/proto/kvVTjMtBxn3BxBEt7yKiMC/RAPID?node-id=1">
                <img src="https://i.ibb.co/ZJKs3pm/4595100.png" width="55%">
             </a>
             <p>Initial Interface Design (Figma)</p>
