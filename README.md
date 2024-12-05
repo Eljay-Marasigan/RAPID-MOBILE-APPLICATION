@@ -45,9 +45,7 @@
 ## 🤖 Tech Stack
 <div align="justify">
 <h3><b>Frontend Development</b></h3>
-⦿ <b>HTML</b> - forms the structure of the RAPID webpage.<br>
-⦿ <b>CSS</b> - controls RAPID's visual design and responsiveness, thus making the pages aesthetically pleasing and adaptable to different screen sizes.<br>
-⦿ <b>JavaScript</b> - adds interactivity and dynamic functionality to RAPID, enabling features like animations, form validation, and data fetching.
+⦿ <b>XML (eXtensible Markup Language) </b> -  defines the structure and appearance of the app interface.
 <h3><b>Data Storage and Management</b></h3>
 ⦿ <b>Firebase Authentication</b> - A service to manage user authentication securely across platforms using email, social accounts, or custom methods.<br
 ⦿ <b>Firebase Realtime Database</b> - A cloud-hosted NoSQL database that syncs and stores data in real-time across devices.<br>                                                                    
