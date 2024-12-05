@@ -56,14 +56,7 @@ public class StoreAdapter extends BaseAdapter {
         supplyType.setText("Supply Type: " + store.getSupplyType());
         supplyStatus.setText("Status: " + store.getSupplyStatus());
 
-        // Handle item click
-        convertView.setOnClickListener(v -> {
-            // Pass the store's unique ID (key) to the ChatActivity
-            String storeId = store.getStoreName();  // Assuming the store object has a `storeId` field
-            Intent intent = new Intent(context, ChatActivity.class);
-            intent.putExtra("store_id", storeId);  // Use storeId here
-            context.startActivity(intent);
-        });
+
 
         return convertView;
     }
