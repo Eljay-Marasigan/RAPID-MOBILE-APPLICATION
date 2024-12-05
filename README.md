@@ -39,7 +39,6 @@
    ⦿ <b>Global Chat</b> - enables users to communicate to all the users of the application.<br><br>
    ⦿ <b>Resource Oversight</b> - This function allows users to monitor the availability and status of essential resources, such as food, water, medical kits, and gasoline, within designated areas. It provides a centralized view of supplies to ensure efficient allocation and quick replenishment.<br><br>
    ⦿ <b>Admin Control</b> -  Admins have exclusive access to manage resources, review user-generated content, and update critical information on the app. <br><br>
-   ⦿ <b>Chat System</b> -  enables efficient and real-time communication among stakeholders, such as emergency responders, volunteers, affected individuals, and command centers.  <br>
 </div>
 
 ### <a name="stack"></a>
