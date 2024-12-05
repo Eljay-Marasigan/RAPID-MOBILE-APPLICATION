@@ -18,20 +18,40 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <!-- Logout Button at the top-right corner -->
-    <Button
-        android:id="@+id/logoutButton"
+    <!-- Logout and About Icons in a Horizontal Layout -->
+    <LinearLayout
+        android:id="@+id/topRightButtons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@color/DARKGREEN"
-        android:text="Logout"
-        android:textColor="@color/white" />
+        android:orientation="horizontal">
 
-    <!-- Vertically aligned buttons in the center -->
+        <!-- About Icon -->
+        <ImageButton
+            android:id="@+id/aboutRapidButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:contentDescription="About"
+            android:src="@drawable/ic_about_rapid"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="10dp" />
+
+        <!-- Logout Icon -->
+        <ImageButton
+            android:id="@+id/logoutButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:contentDescription="Logout"
+            android:src="@drawable/ic_logout"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <!-- Vertically aligned icons in the center -->
     <LinearLayout
         android:id="@+id/buttonLayout"
         android:layout_width="wrap_content"
@@ -40,28 +60,16 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <!-- Global Chat Button -->
-        <Button
+        <!-- Global Chat Icon -->
+        <ImageButton
             android:id="@+id/btnGlobalChat"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/BLACK"
-            android:text="Global Chat"
-            android:textColor="@color/white" />
-
-        <!-- User Chat Button -->
-
-        <!-- FAQ Button -->
-
-        <!-- About Button -->
-        <Button
-            android:id="@+id/aboutRapidButton"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/BLACK"
-            android:text="About RAPID"
-            android:textColor="@color/white" />
+            android:layout_width="130dp"
+            android:layout_height="142dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:contentDescription="Global Chat"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_global_chat" />
     </LinearLayout>
 
     <!-- Include Bottom Navigation, positioned at the bottom -->
@@ -71,5 +79,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp" />
-
 </RelativeLayout>

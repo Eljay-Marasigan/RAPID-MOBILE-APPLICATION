@@ -3,6 +3,7 @@ package com.example.rapidosm;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import android.widget.Toast;
@@ -21,7 +22,7 @@ import java.util.ArrayList;
 public class GlobalChat extends AppCompatActivity {
 
     private EditText messageInput;
-    private Button sendButton;
+    private ImageButton sendButton;
     private ListView messageListView;
     private ArrayList<Message> messagesList = new ArrayList<>();
     private MessageAdapter messagesAdapter;

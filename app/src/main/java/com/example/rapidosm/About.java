@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -18,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 public class About extends AppCompatActivity {
 
     private TextView usernameTextView;
-    private Button logoutButton, globalChatButton, userChatButton, faqButton, aboutRapidButton;
+    private ImageButton logoutButton, globalChatButton, aboutRapidButton;
     private FirebaseAuth mAuth;
     private DatabaseReference usersRef;
 
@@ -34,7 +35,7 @@ public class About extends AppCompatActivity {
         // Find the TextView and Buttons by ID
         usernameTextView = findViewById(R.id.tvUsername);
         logoutButton = findViewById(R.id.logoutButton);
-        globalChatButton = findViewById(R.id.btnGlobalChat);;
+        globalChatButton = findViewById(R.id.btnGlobalChat);
         aboutRapidButton = findViewById(R.id.aboutRapidButton);
 
         // Get the current user
