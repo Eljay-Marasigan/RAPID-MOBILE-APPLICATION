@@ -72,6 +72,7 @@
       <td><img src="https://i.ibb.co/jHYdTd6/image.png" width="150"></td>
       <td><img src="https://i.ibb.co/b5MF3yM/image.png" width="150"></td>
       <td><img src="https://i.ibb.co/tzqXFGG/image.png" width="150"></td>
+       <td><img src="https://i.ibb.co/X5bsXHr/462581133-1647269632861692-641054592478891043-n.jpg" width="150"></td>
     </tr>
   </table>
 </div>
@@ -129,14 +130,6 @@
 <div align="center">
 <table width="100%">
    <tr>
-      <td width="25%">
-         <div align="center">
-            <a href="https://docs.google.com/document/d/1Raenmkpt2GracyI4hoXgJgwdfaF5s1DC/edit?usp=sharing&ouid=112972098088168384042&rtpof=true&sd=true">
-               <img src="https://i.ibb.co/zGM2VWL/plan-28-1.png" width="55%">
-            </a>
-            <p>Project Plan</p>
-         </div>
-      </td>
       <td width="25%">
          <div align="center">
             <a href="https://drive.google.com/drive/folders/1nR7HAjTBR0NX4h6uDQp9q6oaesCNZ9a4?usp=sharing">
